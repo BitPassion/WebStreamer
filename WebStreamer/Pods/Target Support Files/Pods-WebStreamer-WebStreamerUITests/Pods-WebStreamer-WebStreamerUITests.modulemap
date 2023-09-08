@@ -1,0 +1,6 @@
+framework module Pods_WebStreamer_WebStreamerUITests {
+  umbrella header "Pods-WebStreamer-WebStreamerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

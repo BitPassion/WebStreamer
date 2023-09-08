@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>iPad Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main_iPad</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MYRIADPRO-BOLD.OTF</string>
+		<string>MYRIADPRO-BOLDIT.OTF</string>
+		<string>MYRIADPRO-REGULAR.OTF</string>
+		<string>MYRIADPRO-SEMIBOLD.OTF</string>
+		<string>MYRIADPRO-SEMIBOLDIT.OTF</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>rtmp</string>
+		<string>rtmps</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>To play your musics in the app</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>To access always bluetooth.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>To use Bluetooth</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>GPS location used only for Weather forecast.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>GPS location used only for Weather forecast.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>To get location information for Weather.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To stream your camera in the app</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To live stream</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>To use your musics</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To use your photos in the app</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>To save photo to your camera roll</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>
